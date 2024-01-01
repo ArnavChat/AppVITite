@@ -1,0 +1,49 @@
+body{
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+    margin: 0;
+    font-family: 'Outfit', sans-serif !important;
+}
+body, nav {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+.navbar{
+    text-align: right;
+    --bs-navbar-nav-link-padding-x: 3rem !important;
+    margin-top: 0% !important;
+    background-color: #fff !important;
+}
+
+.container-fluid{
+    
+    padding-left: 60px !important;
+    padding-right: 68px !important;
+    background-color: #fff !important;
+
+}
+
+:root{
+    --bs-tertiary-bg-rgb: #fff !important;
+
+}
+
+/* Photos */
+
+/* .photo-carousel{
+    padding-top: 8rem;
+} */
+.carousel-inner{
+    padding: 7rem;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 100%;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 100%;
+}
+
