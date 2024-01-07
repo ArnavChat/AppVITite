@@ -4,69 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresh hot food- AppVITite</title>
+    <link rel="icon" href="images/apple-touch-icon.png"
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/275eb03ef9.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  <!-- NAVIGATION BAR -->
-  <section id="nav-bar">
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary rounded">
-      <div class="container-fluid " style="height: 125px;">
-        <!-- LOGO -->
-        <a class="navbar-brand " href="homepage.html">
-          <img src="images/AppVITITEedited.jpg" alt="Logo" width="208" height="117" class="d-inline-block align-text-top logo-image">
-        </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="#" style="padding-left: 280px;">MENU</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="#">FAQs</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="#">ABOUT US</a>
-            </li>
-          </ul>
-            <button class="btn btn-outline-success" type="submit">Order Now</button>
+    <!-- NAVIGATION BAR -->
+    <section id="navigation-bar" class="colored-section" >
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <img class="navbar-brand" src="images/AppVITITEedited-removebg-preview.png" href="/" alt="AppVITite"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav nav-elements mx-auto p-2 grid gap-lg-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/menu">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/faqs">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about-us">ABOUT US</a>
+                    </li>
+                </ul>
+                </div>
+                <button class="btn btn-outline-dark" type="submit">Order Now</button>
+            </nav>
         </div>
+    </section>
+
+    <!-- CAROUSEL IMAGES -->
+    <section id="carousel-images">
+        <div id="carousel-image" class="carousel slide">
+          <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <img class="display-image-carousel" src="images/Paneer-Butter-Masala.png" alt="Paneer-Butter-Masala">
+              </div>
+              <div class="carousel-item container-fluid">
+                <img class="display-image-carousel" src="images/Chicken Biryani.png" alt="Chicken-Biryani">
+              </div>
+              <div class="carousel-item container-fluid">
+                <img class="display-image-carousel" src="images/mobile-app.png" alt="Chicken-Biryani">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-image" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon carousel-button" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-image" data-bs-slide="next">
+              <span class="carousel-control-next-icon carousel-button" aria-hidden="true"></span>
+          </button>
       </div>
-    </nav>
-  </section>
+    </section>
 
-<!-- PHOTO CAROUSEL -->
-  <section class="photo-carousel">
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/dnaj.png" class="carousel-image d-block w-100" alt="...">
+    <!-- Menu Items -->
+    <section id="open-for-lunch" class="colored-section" >
+        <div class="open-for-lunch">
+            <i class="fa-solid fa-bullhorn fa-beat fa-2xl announcement-icon"></i>
+            <h2>Open for Lunch</h2>
+            <p>✨AppVITite Restaurant is open for lunch.✨</p>
+            <br>
+            <p>Although our lunch buffet isn't open, we are still open for lunch! Indulge in the rich and vibrant flavors of authentic Indian cuisine during your 
+                midday break. Our menu showcases the best of Indian cuisine, So come join us at AppVITite Restaurant for an unforgettable lunchtime experience!</p>
         </div>
-        <div class="carousel-item">
-          <img src="images/dnaj.png" class="carousel-image d-block w-100" alt="...">
+    </section>    
+
+    <!-- MAP -->
+
+    <section id="map">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4517.054419217569!2d79.15397739431654!3d12.968212525999673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad474532891667%3A0xed3c20293ae6b097!2sInox%20Selvam%20Cinemas!5e0!3m2!1sen!2sin!4v1704618737995!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- Credits -->
+    <section id="credits">
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="footer-logo" src="images/AppVITITE-removebg-preview.png" alt="logo">
+                <p>©️2024, AppVITite, Arnav Chaturvedi</p>
+            </div>
+            <div class="col-lg-6 footer">
+                <h1>AppVITite</h1>
+                <p>The Perfect Indian Meal Restaurant</p>
+                <i class="fa-brands fa-instagram fa-2xl"></i>
+                <i class="fa-brands fa-facebook fa-2xl"></i>
+                <i class="fa-brands fa-x-twitter fa-2xl"></i>
+                <p class="address">Inside Inox Selvam Cinemas, VIT University Road, Vellore (Tamil Nadu).</p>
+                <p>Opening hours: 1:00 P.M. to 9:00 P.M.</p>
+            </div>
         </div>
-        <div class="carousel-item">
-          <img src="images/dnaj.png" class="carousel-image d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
-    
-      <h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1><h1>Hello</h1>
-        
-</body>
-</html>
+    </section>
