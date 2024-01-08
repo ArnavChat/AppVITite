@@ -1,16 +1,26 @@
+body{
+    padding-top: 5%;
+}
+
+
 /* NAVBAR */
 
 #navigation-bar{
     padding: 0 5%;
     
 }
+.navbar{
+    background-color:  #FFF !important;
+    height: 14%;
+}
 
 .colored-section{
-    background-color:  #F8FAE5;
+    background-color:  #F8FAE5 !important;
 }
 
 .navbar-brand{
-    width: 17%;
+    width: 18%;
+    padding-left: 6%;
 }
 
 .navbar-nav .nav-item a {
@@ -22,9 +32,17 @@
     color: black !important;
 }
 
+.order-button{
+    margin-right: 9% !important;
+}
+
+
 
 
 /* CAROUSEL */
+#carousel-images{
+    padding-bottom: 5%;
+}
 .display-image-carousel{
     width: 85%;
     padding-left: 10%;
@@ -46,6 +64,56 @@
     margin-bottom: 2%;
 }
 
+/* Difference */
+
+
+.diff-img {
+    width: 70%;
+    display: block; /* Added to center the image */
+    margin: 0 auto; /* Added to center the image */
+}
+.diff-about-us-btn{
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 9.5%;
+    padding: 0.5% 0.5%;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.contains {
+    position: relative;
+    text-align: center;
+}
+  
+  /* Make the image responsive */
+  .contains img {
+    width: 70%;
+    height: auto;
+  }
+  .appvitite-diff{
+    text-align: center;
+}
+  
+  /* Style the button and place it in the middle of the container/image */
+  .contains .btn {
+    position: absolute;
+    top: 88%;
+    left: 51%; /* Changed to 50% for better center alignment */
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  .contains .btn:hover {
+    background-color: #555;
+  }
+
+
 /* MAP */
 #map{
     padding: 5% 0.25%;
@@ -60,7 +128,7 @@
 #credits{
     background-color: #EAD196;
     font-family: 'Outfit', sans-serif !important;
-    padding: 5% 15%;
+    padding: 1% 15%;
     text-align: center;
 }
 
