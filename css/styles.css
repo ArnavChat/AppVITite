@@ -19,8 +19,8 @@ body{
 }
 
 .navbar-brand{
-    width: 18%;
-    padding-left: 6%;
+    width: 52%;
+    padding-left: 15%;
 }
 
 .navbar-nav .nav-item a {
@@ -32,15 +32,24 @@ body{
     color: black !important;
 }
 
-.order-button{
-    margin-right: 9% !important;
+.nav-elements{
+    padding-right: 25% !important;
 }
+
+.order-button{
+    margin-right: 12% !important;
+}
+.order-button:hover{
+    background-color: #555;
+}
+
 
 
 
 
 /* CAROUSEL */
 #carousel-images{
+    padding-top: 3%;
     padding-bottom: 5%;
 }
 .display-image-carousel{
@@ -124,12 +133,13 @@ body{
     height: 600px;
 }
 
-/* CREDITS */
+/* FOOTER */
 #credits{
-    background-color: #EAD196;
+    background-color: #F6BA6F;
     font-family: 'Outfit', sans-serif !important;
     padding: 1% 15%;
     text-align: center;
+    font-weight: bold;
 }
 
 .footer{
@@ -144,5 +154,12 @@ body{
 }
 
 .address{
-    padding: 5% 5% 2%;
+    padding: 5% 7% 2%;
 }
+
+
+
+
+
+
+
