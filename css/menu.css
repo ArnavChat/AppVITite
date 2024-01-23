@@ -14,8 +14,8 @@
 }
 
 .navbar-brand{
-    width: 18%;
-    padding-left: 6%;
+    width: 52%;
+    padding-left: 15%;
 }
 
 .navbar-nav .nav-item a {
@@ -27,14 +27,16 @@
     color: black !important;
 }
 
+.nav-elements{
+    padding-right: 25% !important;
+}
+
 .order-button{
-    margin-right: 9% !important;
+    margin-right: 12% !important;
 }
 .order-button:hover{
     background-color: #555;
 }
-
-
 
 /* MENU */
 /* HEADER */
